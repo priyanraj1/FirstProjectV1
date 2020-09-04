@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+	<listener class-name="com.utilities.Reporting"></listener>
+	</listeners>
+	
+  <test name="Test">
+    
+    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    <!--   <class name="DemoSelenium.LoginTest"/> -->
+  
+    
+    <class name="com.testCases.TC_LoginTest_001"/>
+  
+   <!--  <class name="com.testCases.TC_LoginDDT_002"/>
+    <class name="com.testCases.TC_AddCustomerTest_003"/> -->
+    </classes>
+      
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
